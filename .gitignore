@@ -1,0 +1,50 @@
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated networks, routes and per-run SUMO working files.
+# All of it is reproducible from config via scripts/run_all.py.
+data/
+
+# Experiment outputs. results/*.json and results/*.csv are small and worth
+# keeping if you want the paper to build without re-running everything --
+# un-ignore them selectively. The per-seed tripinfo XML is large and is not.
+results/runs/
+results/**/tripinfo_*.xml
+logs/
+
+# Trained weights are published (the paper links to them); only stale
+# backups and superseded variants are kept out.
+models/*.bak
+models/*.pre*
+
+# LaTeX build artefacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/main.pdf
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Stray simulator output
+sumo.log
+sumo_error.log
+traffic_over_time*.png
+
+# demo screenshots (regenerate with scripts/demo.py --screenshot-ev)
+figures/demo/
+
+# Stray LaTeX run output
+texput.log

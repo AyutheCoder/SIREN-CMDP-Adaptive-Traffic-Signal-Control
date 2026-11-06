@@ -1,0 +1,161 @@
+{
+  "_note": [
+    "Curated from the published record, not produced by our code. Every 'reported' figure",
+    "is the authors' own headline number on their own network, demand and simulator.",
+    "They are NOT a common benchmark and must never be ranked against each other or",
+    "against ours as though they were: the column exists to show what is claimed and",
+    "under what assumptions, which is the comparison that actually matters here.",
+    "Fields: sensing = what the controller is assumed to know about the emergency",
+    "vehicle; conflicts = whether simultaneous requests from conflicting approaches are",
+    "handled; guarantees = worst-case properties that hold for any input; hardware =",
+    "what has to be installed, and on what, for the method to run at all."
+  ],
+  "entries": [
+    {
+      "key": "opticom",
+      "label": "Optical preemption (Opticom, deployed)",
+      "venue": "In field use since the 1970s; Denver Fire Department evaluation, 1977",
+      "sensing": "Line-of-sight infrared strobe on the vehicle, receiver on the mast",
+      "conflicts": "First-come-first-served; later requests queue or are ignored",
+      "guarantees": "None beyond the controller's own clearance intervals",
+      "hardware": "Emitter on every emergency vehicle, receiver and card in every cabinet",
+      "reported_ev_improvement_pct": 18.9,
+      "reported_ev_improvement_range_pct": [14.3, 23.5],
+      "reported_metric": "emergency response time along the corridor",
+      "network": "3 fire stations, 75 signalised intersections, two 90-day periods",
+      "notes": "The field baseline the whole area is measured against. Range is the reported minimum and maximum reduction across corridors; the single value is their midpoint and is plotted only for scale. Requires line of sight, so it degrades in curves, heavy rain and dense urban canyons, and reviews of the area name simultaneous conflicting requests as an unresolved operational problem."
+    },
+    {
+      "key": "emvlight",
+      "label": "EMVLight (Su et al.)",
+      "venue": "AAAI 2022; Transportation Research Part C 2023",
+      "sensing": "Exact emergency-vehicle position and route, known to the controller",
+      "conflicts": "Not addressed; the framework is posed around a single emergency vehicle",
+      "guarantees": "None stated",
+      "hardware": "V2I link or equivalent position feed from every emergency vehicle",
+      "reported_ev_improvement_pct": 42.6,
+      "reported_metric": "emergency-vehicle travel time",
+      "network": "5x5 synthetic grid and a 16x3 Manhattan network, multi-intersection",
+      "reported_detail": {
+        "grid_config1_ev_s": 198.6,
+        "grid_config1_all_s": 322.4,
+        "grid_config1_best_baseline_ev_s": 226.2,
+        "grid_config1_best_baseline_all_s": 345.45,
+        "manhattan_ev_s": 391.8,
+        "manhattan_all_s": 681.23,
+        "manhattan_best_baseline_ev_s": 438.8,
+        "manhattan_best_baseline_all_s": 721.32
+      },
+      "notes": "Also reports 23.5% improvement for non-emergency vehicles. Couples dynamic routing with signal control, which is a strictly larger action space than ours: part of the reported gain is re-routing the vehicle, not re-timing the signal. The closest work in ambition, and the clearest illustration of the assumption we drop."
+    },
+    {
+      "key": "informed_preemption",
+      "label": "Informed preemption (FLAIRS 2024)",
+      "venue": "FLAIRS 2024",
+      "sensing": "Predicted emergency-vehicle trajectory from GPS along a known route",
+      "conflicts": "Not addressed",
+      "guarantees": "Fixed safety margins (8 s green warning, 5 s driving allowance)",
+      "hardware": "GPS and a data link on every emergency vehicle",
+      "reported_ev_improvement_pct": null,
+      "reported_metric": "time to destination vs no preemption",
+      "network": "corridor",
+      "notes": "Explicitly motivated by the cost and unreliability of installed preemption hardware, which is the same gap passive acoustics addresses -- but the proposed replacement is another on-vehicle device."
+    },
+    {
+      "key": "rt_fedflow",
+      "label": "RT-FedFlow",
+      "venue": "Engineering Applications of AI 2025",
+      "sensing": "Infrastructure detectors, federated across intersections",
+      "conflicts": "Not addressed",
+      "guarantees": "None stated",
+      "hardware": "Detector infrastructure at every intersection",
+      "reported_ev_improvement_pct": 5.35,
+      "reported_metric": "emergency-vehicle clearance time",
+      "network": "multi-intersection",
+      "notes": "Also reports 13.04% reduction in average intersection delay."
+    },
+    {
+      "key": "acoustic_seld",
+      "label": "Acoustic siren detection + DoA (Banchero et al.)",
+      "venue": "Sensors 25(3):793, 2025",
+      "sensing": "Microphone array; detection and direction of arrival, no control",
+      "conflicts": "n/a -- not a controller",
+      "guarantees": "n/a",
+      "hardware": "Microphone array on the receiving vehicle",
+      "reported_ev_improvement_pct": null,
+      "reported_metric": "detection and localisation accuracy",
+      "reported_detail": {
+        "accuracy_pct": 98.86,
+        "f1_pct": 95.93,
+        "precision_pct": 97.26,
+        "recall_pct": 94.64,
+        "doa_error_deg_simulated": 5.12,
+        "doa_error_deg_real": 10.3,
+        "range_output": "three classes (near / medium / far) from harmonic energy ratios"
+      },
+      "notes": "The state of the art in acoustic emergency-vehicle sensing, and the reason the sensing half of this problem is considered solved. It is not solved for signal control: the metric is frame-level classification and bearing, the range output is three bins, and no controller consumes it. What a signal controller needs is a calibrated probability that a vehicle is inbound on a named approach and an arrival time in seconds -- neither of which follows from a 95% F1 on frames."
+    },
+    {
+      "key": "siren_cnn_dataset",
+      "label": "Large-scale siren/road-noise detection (SACNN)",
+      "venue": "Expert Systems with Applications 2024",
+      "sensing": "Single-channel audio; classification only",
+      "conflicts": "n/a -- not a controller",
+      "guarantees": "n/a",
+      "hardware": "One microphone",
+      "reported_ev_improvement_pct": null,
+      "reported_metric": "siren-vs-noise classification accuracy",
+      "network": "n/a",
+      "notes": "Self-attention CNN on a large siren and road-noise corpus. Establishes that the detection problem is tractable at frame level; says nothing about which approach a siren is on, which is the question a four-armed junction actually poses."
+    },
+    {
+      "key": "colight",
+      "label": "CoLight and the pressure family (context, not EV)",
+      "venue": "CIKM 2019 (CoLight); KDD 2019 (PressLight); AAAI 2020 (MPLight, FRAP)",
+      "sensing": "Complete lane-level vehicle counts at every intersection",
+      "conflicts": "n/a -- no emergency vehicles in the benchmark",
+      "guarantees": "None stated",
+      "hardware": "Full detector coverage",
+      "reported_ev_improvement_pct": null,
+      "reported_metric": "network average travel time (no emergency vehicles)",
+      "network": "Jinan and Hangzhou open benchmarks, CityFlow",
+      "reported_detail": {
+        "jinan_fixedtime_s": 429.27,
+        "jinan_maxpressure_s": 274.99,
+        "jinan_frap_s": 297.68,
+        "jinan_mplight_s": 291.27,
+        "jinan_colight_s": 268.0,
+        "hangzhou_fixedtime_s": 497.87,
+        "hangzhou_maxpressure_s": 289.54,
+        "hangzhou_colight_s": 301.06
+      },
+      "notes": "Included because it is the reference point for RL traffic signal control generally, and because it makes the omission visible: this literature does not model emergency vehicles at all, so a controller can top these benchmarks while being arbitrarily bad at the problem studied here. Numbers are as tabulated in the common benchmark comparisons, not re-run by us."
+    },
+    {
+      "key": "transit_priority",
+      "label": "Safe RL under competing transit priority",
+      "venue": "recent RL-for-signals literature",
+      "sensing": "Known transit-vehicle position",
+      "conflicts": "Priority requests are ranked, not scheduled",
+      "guarantees": "Soft constraints via reward shaping",
+      "hardware": "Position feed from every priority vehicle",
+      "reported_ev_improvement_pct": null,
+      "reported_metric": "priority-vehicle delay",
+      "network": "single and small networks",
+      "notes": "Scalarises priority into the reward, so the trade-off is fixed by a weight chosen before training and has to be retuned per demand level. This is the design the CMDP formulation here replaces."
+    },
+    {
+      "key": "this_work",
+      "label": "SIREN-ARC (this work)",
+      "venue": "this paper",
+      "sensing": "Passive roadside microphones only; no equipment on any vehicle",
+      "conflicts": "Solved exactly: minimum-cost phase ordering over committed requests",
+      "guarantees": "Minimum green, full changeover, and a proved bound W_max on how long any movement may be denied service, holding for any belief and any adversarial detector output",
+      "hardware": "One calibrated microphone per approach mast",
+      "reported_ev_improvement_pct": null,
+      "reported_metric": "emergency stopped delay, measured against fixed-time on identical seeded demand",
+      "network": "single four-arm intersection, 12 seeds x 3600 s",
+      "notes": "The improvement is computed by scripts/make_tables.py from results/evaluation_balanced.json and inserted at build time, so the number in the table is the number the code produced."
+    }
+  ]
+}

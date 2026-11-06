@@ -1,0 +1,14 @@
+
+regime=balanced  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  loaded siren_cmdp (lambda=4.001)
+  [siren_cmdp] seed=50029  delay=  24.09s  ev_stopped=  7.44s  ev_stops= 1.06  queue= 10.77  (92.4s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+siren_cmdp                   24.09+-0.00     53.09+-0.00     10.77+-0.00      7.44+-0.00      1.06+-0.00     0.278+-0.000   med= 24.09 jam=0/1
+======================================================================================================================
+
+wrote results\camera_ready\units\siren_cmdp_balanced_f700_ev30_s50029.json
+wrote results\camera_ready\units\siren_cmdp_balanced_f700_ev30_s50029.csv

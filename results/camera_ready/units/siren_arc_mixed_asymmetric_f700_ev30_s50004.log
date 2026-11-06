@@ -1,0 +1,14 @@
+
+regime=asymmetric  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  loaded siren_arc_mixed (lambda=0.000)
+  [siren_arc_mixed] seed=50004  delay=  88.86s  ev_stopped= 29.04s  ev_stops= 1.12  queue= 49.25  (63.0s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+siren_arc_mixed              88.86+-0.00    362.20+-0.00     49.25+-0.00     29.04+-0.00      1.12+-0.00     0.333+-0.000   med= 88.86 jam=1/1
+======================================================================================================================
+
+wrote results\camera_ready\units\siren_arc_mixed_asymmetric_f700_ev30_s50004.json
+wrote results\camera_ready\units\siren_arc_mixed_asymmetric_f700_ev30_s50004.csv

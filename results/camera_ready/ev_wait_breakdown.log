@@ -1,0 +1,57 @@
+  [siren_arc_bd] seed=50000  delay=  24.60s  ev_stopped=  6.88s  ev_stops= 0.82  queue= 10.89  (93.6s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50001  delay=  23.85s  ev_stopped=  6.42s  ev_stops= 0.65  queue= 10.80  (94.6s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50002  delay=  26.83s  ev_stopped= 10.82s  ev_stops= 1.04  queue= 12.79  (105.0s)
+  [siren_arc_bd] seed=50003  delay=  23.51s  ev_stopped=  8.19s  ev_stops= 0.75  queue= 10.40  (99.9s)
+  [siren_arc_bd] seed=50004  delay=  24.63s  ev_stopped=  9.17s  ev_stops= 0.86  queue= 11.36  (108.1s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50005  delay=  26.10s  ev_stopped= 11.03s  ev_stops= 1.05  queue= 12.22  (102.4s)
+  [siren_arc_bd] seed=50006  delay=  22.38s  ev_stopped=  6.70s  ev_stops= 0.73  queue=  9.56  (109.3s)
+  [siren_arc_bd] seed=50007  delay=  25.66s  ev_stopped=  9.53s  ev_stops= 1.13  queue= 11.85  (161.1s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50008  delay=  24.23s  ev_stopped=  6.27s  ev_stops= 0.83  queue= 10.60  (218.7s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50009  delay=  22.13s  ev_stopped= 10.19s  ev_stops= 0.88  queue=  9.64  (232.6s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50010  delay=  23.46s  ev_stopped=  8.48s  ev_stops= 0.90  queue= 10.58  (100.1s)
+ Retrying in 1 seconds
+  [siren_arc_bd] seed=50011  delay=  24.88s  ev_stopped=  9.26s  ev_stops= 0.85  queue= 11.46  (146.7s)
+{
+ "seeds": [
+  50000,
+  50001,
+  50002,
+  50003,
+  50004,
+  50005,
+  50006,
+  50007,
+  50008,
+  50009,
+  50010,
+  50011
+ ],
+ "n_ev": 378,
+ "stopped_seconds": 3227,
+ "share_all": {
+  "green": 0.1846916640842888,
+  "other_movement_green": 0.1468856523086458,
+  "changeover": 0.16857762627827705,
+  "red_with_request": 0.375890920359467,
+  "red_no_request": 0.0635264951967772,
+  "other": 0.06042764177254416
+ },
+ "n_ev_stopped_over_16s": 66,
+ "share_over_16s": {
+  "green": 0.15116976604679064,
+  "other_movement_green": 0.1799640071985603,
+  "changeover": 0.16196760647870426,
+  "red_with_request": 0.373125374925015,
+  "red_no_request": 0.10017996400719856,
+  "other": 0.033593281343731254
+ },
+ "max_red_with_request_run_s": 12,
+ "red_with_request_run_p95_s": 8.149999999999977,
+ "median_ev_stopped_s_check": 8.828142380422692
+}

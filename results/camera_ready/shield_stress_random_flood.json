@@ -1,0 +1,65 @@
+{
+ "seeds": [
+  50000,
+  50001,
+  50002,
+  50003,
+  50004,
+  50005
+ ],
+ "bounds": {
+  "S3_s": 180.0,
+  "S4_s": 16.0
+ },
+ "scenarios": {
+  "random_flood": {
+   "runs": [
+    {
+     "seed": 50000,
+     "max_phase_unserved_s": 138.0,
+     "max_request_age_s": 13.0,
+     "max_movement_wait_s": 138.0,
+     "jammed": false
+    },
+    {
+     "seed": 50001,
+     "max_phase_unserved_s": 125.0,
+     "max_request_age_s": 14.0,
+     "max_movement_wait_s": 125.0,
+     "jammed": false
+    },
+    {
+     "seed": 50002,
+     "max_phase_unserved_s": 125.0,
+     "max_request_age_s": 12.0,
+     "max_movement_wait_s": 125.0,
+     "jammed": false
+    },
+    {
+     "seed": 50003,
+     "max_phase_unserved_s": 125.0,
+     "max_request_age_s": 12.0,
+     "max_movement_wait_s": 125.0,
+     "jammed": false
+    },
+    {
+     "seed": 50004,
+     "max_phase_unserved_s": 138.0,
+     "max_request_age_s": 15.0,
+     "max_movement_wait_s": 138.0,
+     "jammed": false
+    },
+    {
+     "seed": 50005,
+     "max_phase_unserved_s": 133.0,
+     "max_request_age_s": 12.0,
+     "max_movement_wait_s": 133.0,
+     "jammed": false
+    }
+   ],
+   "worst_phase_unserved_s": 138.0,
+   "worst_request_age_s": 15.0,
+   "worst_movement_wait_s": 138.0
+  }
+ }
+}

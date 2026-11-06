@@ -1,0 +1,225 @@
+loaded fitted sensor error model from models\sensor_error_model.json
+state_dim=85  n_actions=4  constrained=False  budget=0.06  sensing=surrogate
+
+training 200 episodes (1800s each) -> models\siren_arc_mixed.h5
+
+ep   0  R= -1993.47  q= 97.23  evdelay=245.00s  lam= 0.000  cost_ema=0.7049  eps=0.982  232s
+ep   1  R= -2276.24  q=107.39  evdelay=156.50s  lam= 0.000  cost_ema=0.3027  eps=0.963  227s
+ep   2  R= -2447.90  q=102.75  evdelay=135.79s  lam= 0.000  cost_ema=0.6661  eps=0.945  136s
+ep   3  R= -2187.52  q= 98.23  evdelay=263.33s  lam= 0.000  cost_ema=1.1723  eps=0.927  175s
+ep   4  R= -2173.64  q=109.70  evdelay=234.69s  lam= 0.000  cost_ema=1.2655  eps=0.910  141s
+ep   5  R= -1926.36  q=112.02  evdelay=200.53s  lam= 0.000  cost_ema=1.1763  eps=0.894  127s
+ep   6  R= -2089.77  q=106.57  evdelay=126.67s  lam= 0.000  cost_ema=0.5072  eps=0.876  135s
+ep   7  R= -1200.83  q= 77.60  evdelay=103.86s  lam= 0.000  cost_ema=0.8648  eps=0.860  118s
+ep   8  R= -1483.93  q= 93.13  evdelay=136.62s  lam= 0.000  cost_ema=0.9279  eps=0.845  135s
+ep   9  R= -1467.23  q= 85.81  evdelay=149.08s  lam= 0.000  cost_ema=0.4151  eps=0.826  144s
+ep  10  R= -1118.72  q= 73.97  evdelay= 77.25s  lam= 0.000  cost_ema=0.4209  eps=0.810  116s
+ep  11  R=   -96.58  q= 13.17  evdelay= 25.54s  lam= 0.000  cost_ema=0.2686  eps=0.797  46s
+ep  12  R= -1532.61  q=103.60  evdelay=153.47s  lam= 0.000  cost_ema=1.0456  eps=0.782  150s
+ep  13  R=-19499.16  q=259.09  evdelay=248.57s  lam= 0.000  cost_ema=0.6628  eps=0.764  258s
+ep  14  R=   -76.00  q= 12.55  evdelay= 18.33s  lam= 0.000  cost_ema=0.3999  eps=0.751  43s
+    eval: delay=84.22s  ev_stopped=34.31s  ev_stops=2.31  clean=0.11  cost=0.7099  queue=91.65
+    saved checkpoint (excess=0.0000, delay=84.22s)
+ep  15  R= -1540.13  q= 84.66  evdelay=149.50s  lam= 0.000  cost_ema=1.0450  eps=0.734  74s
+ep  16  R= -1032.74  q= 82.16  evdelay= 98.33s  lam= 0.000  cost_ema=0.6482  eps=0.719  65s
+ep  17  R=  -429.13  q= 40.51  evdelay= 42.95s  lam= 0.000  cost_ema=0.6385  eps=0.707  36s
+ep  18  R=  -849.20  q= 76.47  evdelay=112.85s  lam= 0.000  cost_ema=0.8769  eps=0.692  60s
+ep  19  R=  -492.89  q= 54.51  evdelay= 71.87s  lam= 0.000  cost_ema=0.6358  eps=0.679  44s
+ep  20  R=  -619.49  q= 59.89  evdelay= 90.63s  lam= 0.000  cost_ema=1.0679  eps=0.665  53s
+ep  21  R= -1124.41  q= 71.70  evdelay= 85.69s  lam= 0.000  cost_ema=0.5121  eps=0.649  62s
+ep  22  R=  -292.73  q= 35.67  evdelay= 55.67s  lam= 0.000  cost_ema=0.5015  eps=0.636  40s
+ep  23  R=   -64.81  q= 11.65  evdelay= 18.47s  lam= 0.000  cost_ema=0.2217  eps=0.624  23s
+ep  24  R=  -350.57  q= 37.44  evdelay= 39.76s  lam= 0.000  cost_ema=0.3013  eps=0.609  43s
+ep  25  R=  -905.27  q= 79.44  evdelay= 73.50s  lam= 0.000  cost_ema=0.5137  eps=0.594  61s
+ep  26  R=  -895.84  q= 73.52  evdelay=107.67s  lam= 0.000  cost_ema=0.1546  eps=0.580  57s
+ep  27  R=   -68.96  q= 11.15  evdelay= 15.38s  lam= 0.000  cost_ema=0.2050  eps=0.568  23s
+ep  28  R=  -386.59  q= 47.42  evdelay= 51.95s  lam= 0.000  cost_ema=0.9199  eps=0.555  43s
+ep  29  R=  -882.36  q= 72.61  evdelay=119.14s  lam= 0.000  cost_ema=1.0048  eps=0.540  62s
+    eval: delay=52.93s  ev_stopped=33.97s  ev_stops=2.23  clean=0.13  cost=0.2780  queue=26.11
+    saved checkpoint (excess=0.0000, delay=52.93s)
+ep  30  R=  -119.73  q= 16.39  evdelay= 19.60s  lam= 0.000  cost_ema=0.2245  eps=0.528  26s
+ep  31  R=  -480.45  q= 62.62  evdelay= 83.09s  lam= 0.000  cost_ema=0.5524  eps=0.515  48s
+ep  32  R=  -388.14  q= 45.11  evdelay= 45.07s  lam= 0.000  cost_ema=0.5237  eps=0.502  42s
+ep  33  R= -2979.19  q= 87.04  evdelay=122.67s  lam= 0.000  cost_ema=0.6014  eps=0.486  72s
+ep  34  R=   -74.75  q= 12.41  evdelay= 15.27s  lam= 0.000  cost_ema=0.2421  eps=0.473  24s
+ep  35  R=   -53.58  q= 10.04  evdelay= 15.67s  lam= 0.000  cost_ema=0.1784  eps=0.461  24s
+ep  36  R=  -248.41  q= 31.25  evdelay= 39.72s  lam= 0.000  cost_ema=0.4918  eps=0.448  56s
+ep  37  R=   -58.27  q= 10.24  evdelay= 12.00s  lam= 0.000  cost_ema=0.1720  eps=0.435  38s
+ep  38  R=  -110.28  q= 15.08  evdelay= 17.10s  lam= 0.000  cost_ema=0.1916  eps=0.422  38s
+ep  39  R=  -322.53  q= 43.15  evdelay= 82.50s  lam= 0.000  cost_ema=0.9700  eps=0.409  63s
+ep  40  R=  -562.25  q= 57.17  evdelay= 65.62s  lam= 0.000  cost_ema=0.3240  eps=0.396  54s
+ep  41  R=  -410.61  q= 51.21  evdelay= 27.29s  lam= 0.000  cost_ema=0.1779  eps=0.383  51s
+ep  42  R=   -67.19  q= 10.77  evdelay= 12.62s  lam= 0.000  cost_ema=0.1509  eps=0.370  28s
+ep  43  R=  -320.45  q= 45.25  evdelay= 51.60s  lam= 0.000  cost_ema=0.5202  eps=0.357  66s
+ep  44  R=  -435.89  q= 55.15  evdelay= 75.13s  lam= 0.000  cost_ema=0.8138  eps=0.344  65s
+    eval: delay=139.13s  ev_stopped=111.65s  ev_stops=3.08  clean=0.12  cost=0.3619  queue=63.85
+ep  45  R=  -361.84  q= 41.41  evdelay= 50.63s  lam= 0.000  cost_ema=0.5413  eps=0.331  83s
+ep  46  R=-24504.96  q=261.52  evdelay=316.83s  lam= 0.000  cost_ema=0.4222  eps=0.312  222s
+ep  47  R=   -60.02  q= 11.15  evdelay= 26.20s  lam= 0.000  cost_ema=0.1735  eps=0.300  41s
+ep  48  R=   -88.20  q= 13.10  evdelay= 27.53s  lam= 0.000  cost_ema=0.2944  eps=0.287  36s
+ep  49  R=   -67.70  q= 11.67  evdelay= 12.80s  lam= 0.000  cost_ema=0.2351  eps=0.275  31s
+ep  50  R=  -356.97  q= 47.84  evdelay= 59.92s  lam= 0.000  cost_ema=0.5772  eps=0.262  59s
+ep  51  R=  -105.00  q= 16.65  evdelay= 19.16s  lam= 0.000  cost_ema=0.2723  eps=0.249  37s
+ep  52  R=  -342.25  q= 46.74  evdelay= 63.27s  lam= 0.000  cost_ema=0.3995  eps=0.236  63s
+ep  53  R=  -218.99  q= 31.66  evdelay= 36.23s  lam= 0.000  cost_ema=0.4813  eps=0.223  59s
+ep  54  R=  -131.88  q= 21.70  evdelay= 25.67s  lam= 0.000  cost_ema=0.3752  eps=0.210  45s
+ep  55  R= -2953.61  q= 90.62  evdelay= 78.42s  lam= 0.000  cost_ema=0.4093  eps=0.195  90s
+ep  56  R=  -154.89  q= 22.49  evdelay= 36.75s  lam= 0.000  cost_ema=0.2639  eps=0.182  38s
+ep  57  R=   -61.81  q= 11.52  evdelay= 17.76s  lam= 0.000  cost_ema=0.1918  eps=0.170  28s
+ep  58  R=  -214.60  q= 31.69  evdelay= 49.93s  lam= 0.000  cost_ema=0.6627  eps=0.157  46s
+ep  59  R=  -191.08  q= 27.00  evdelay= 31.29s  lam= 0.000  cost_ema=0.2807  eps=0.144  40s
+    eval: delay=49.09s  ev_stopped=30.52s  ev_stops=2.10  clean=0.11  cost=0.2654  queue=24.58
+    saved checkpoint (excess=0.0000, delay=49.09s)
+ep  60  R=   -73.77  q= 12.38  evdelay= 18.59s  lam= 0.000  cost_ema=0.2463  eps=0.132  34s
+ep  61  R=  -100.97  q= 17.73  evdelay= 11.24s  lam= 0.000  cost_ema=0.2339  eps=0.119  54s
+ep  62  R=  -110.75  q= 17.32  evdelay= 27.94s  lam= 0.000  cost_ema=0.2576  eps=0.106  58s
+ep  63  R=   -93.94  q= 16.39  evdelay= 24.88s  lam= 0.000  cost_ema=0.2229  eps=0.093  39s
+ep  64  R= -3031.02  q= 95.41  evdelay= 61.93s  lam= 0.000  cost_ema=0.2771  eps=0.077  111s
+ep  65  R=   -45.42  q=  9.00  evdelay= 11.60s  lam= 0.000  cost_ema=0.1332  eps=0.064  25s
+ep  66  R=  -150.03  q= 22.15  evdelay= 33.58s  lam= 0.000  cost_ema=0.2817  eps=0.052  35s
+ep  67  R=  -126.97  q= 19.44  evdelay= 23.38s  lam= 0.000  cost_ema=0.4339  eps=0.039  36s
+ep  68  R=   -73.14  q= 13.10  evdelay= 15.54s  lam= 0.000  cost_ema=0.2029  eps=0.026  32s
+ep  69  R=   -63.65  q= 10.78  evdelay=  9.00s  lam= 0.000  cost_ema=0.0871  eps=0.020  28s
+ep  70  R=  -208.40  q= 31.77  evdelay= 25.75s  lam= 0.000  cost_ema=0.1719  eps=0.020  48s
+ep  71  R=  -149.24  q= 27.25  evdelay= 27.57s  lam= 0.000  cost_ema=0.3386  eps=0.020  62s
+ep  72  R=  -220.93  q= 34.41  evdelay= 24.76s  lam= 0.000  cost_ema=0.2268  eps=0.020  86s
+ep  73  R=  -261.38  q= 33.85  evdelay= 39.30s  lam= 0.000  cost_ema=0.4648  eps=0.020  66s
+ep  74  R=   -54.11  q=  9.38  evdelay= 13.26s  lam= 0.000  cost_ema=0.1390  eps=0.020  58s
+    eval: delay=42.78s  ev_stopped=24.24s  ev_stops=1.71  clean=0.11  cost=0.2278  queue=20.50
+    saved checkpoint (excess=0.0000, delay=42.78s)
+ep  75  R=  -316.60  q= 49.63  evdelay= 55.88s  lam= 0.000  cost_ema=0.5878  eps=0.020  81s
+ep  76  R=  -269.77  q= 40.47  evdelay= 51.31s  lam= 0.000  cost_ema=0.5906  eps=0.020  74s
+ep  77  R=   -55.22  q=  9.92  evdelay= 15.57s  lam= 0.000  cost_ema=0.2202  eps=0.020  60s
+ep  78  R=  -161.87  q= 26.44  evdelay= 20.85s  lam= 0.000  cost_ema=0.1893  eps=0.020  56s
+ep  79  R=   -50.73  q= 10.03  evdelay= 14.00s  lam= 0.000  cost_ema=0.2007  eps=0.020  45s
+ep  80  R=  -270.18  q= 38.89  evdelay= 43.58s  lam= 0.000  cost_ema=0.7148  eps=0.020  75s
+ep  81  R=   -47.78  q=  9.23  evdelay= 16.77s  lam= 0.000  cost_ema=0.3122  eps=0.020  43s
+ep  82  R=  -193.63  q= 32.31  evdelay= 54.10s  lam= 0.000  cost_ema=0.3677  eps=0.020  63s
+ep  83  R=-14083.19  q=183.44  evdelay=388.54s  lam= 0.000  cost_ema=2.0583  eps=0.020  213s
+ep  84  R=  -165.82  q= 25.11  evdelay= 34.56s  lam= 0.000  cost_ema=0.6444  eps=0.020  56s
+ep  85  R=  -141.58  q= 21.78  evdelay= 34.11s  lam= 0.000  cost_ema=0.4739  eps=0.020  52s
+ep  86  R=  -215.71  q= 33.02  evdelay= 24.35s  lam= 0.000  cost_ema=0.2838  eps=0.020  61s
+ep  87  R=  -208.23  q= 34.26  evdelay= 53.33s  lam= 0.000  cost_ema=0.2989  eps=0.020  63s
+ep  88  R=  -252.69  q= 45.13  evdelay= 51.67s  lam= 0.000  cost_ema=0.6300  eps=0.020  78s
+ep  89  R=  -114.81  q= 17.56  evdelay= 24.35s  lam= 0.000  cost_ema=0.2769  eps=0.020  53s
+    eval: delay=111.61s  ev_stopped=114.45s  ev_stops=3.27  clean=0.11  cost=0.4767  queue=52.60
+ep  90  R=  -348.42  q= 49.14  evdelay= 69.15s  lam= 0.000  cost_ema=0.7055  eps=0.020  114s
+ep  91  R=  -171.79  q= 26.82  evdelay= 42.27s  lam= 0.000  cost_ema=0.4122  eps=0.020  75s
+ep  92  R=   -76.10  q= 13.29  evdelay= 23.06s  lam= 0.000  cost_ema=0.3552  eps=0.020  61s
+ep  93  R=  -147.33  q= 21.05  evdelay= 33.25s  lam= 0.000  cost_ema=0.4052  eps=0.020  65s
+ep  94  R=   -58.41  q= 10.37  evdelay= 21.64s  lam= 0.000  cost_ema=0.1577  eps=0.020  56s
+ep  95  R=   -82.48  q= 14.49  evdelay= 23.57s  lam= 0.000  cost_ema=0.2870  eps=0.020  63s
+ep  96  R=  -207.93  q= 32.73  evdelay= 40.00s  lam= 0.000  cost_ema=0.5659  eps=0.020  67s
+ep  97  R=   -49.26  q=  9.60  evdelay= 11.14s  lam= 0.000  cost_ema=0.1850  eps=0.020  32s
+ep  98  R=  -110.91  q= 18.33  evdelay= 27.00s  lam= 0.000  cost_ema=0.2717  eps=0.020  40s
+ep  99  R=  -148.03  q= 22.75  evdelay= 28.00s  lam= 0.000  cost_ema=0.2582  eps=0.020  41s
+ep 100  R=  -197.06  q= 25.60  evdelay= 44.60s  lam= 0.000  cost_ema=0.3637  eps=0.020  43s
+ep 101  R=  -103.19  q= 17.37  evdelay= 21.00s  lam= 0.000  cost_ema=0.3179  eps=0.020  39s
+ep 102  R=  -113.72  q= 18.67  evdelay= 26.64s  lam= 0.000  cost_ema=0.1835  eps=0.020  38s
+ep 103  R=  -241.06  q= 32.30  evdelay= 46.30s  lam= 0.000  cost_ema=0.2690  eps=0.020  48s
+ep 104  R=  -165.46  q= 28.95  evdelay= 21.56s  lam= 0.000  cost_ema=0.3387  eps=0.020  45s
+    eval: delay=49.85s  ev_stopped=41.15s  ev_stops=2.47  clean=0.13  cost=0.3200  queue=25.02
+ep 105  R=   -97.41  q= 18.47  evdelay= 26.08s  lam= 0.000  cost_ema=0.3465  eps=0.020  43s
+ep 106  R=  -245.79  q= 32.63  evdelay= 43.17s  lam= 0.000  cost_ema=0.3873  eps=0.020  48s
+ep 107  R=   -54.36  q= 10.22  evdelay=  9.46s  lam= 0.000  cost_ema=0.1171  eps=0.020  34s
+ep 108  R=   -57.22  q= 11.03  evdelay= 18.06s  lam= 0.000  cost_ema=0.2407  eps=0.020  33s
+ep 109  R=  -187.50  q= 32.62  evdelay= 34.83s  lam= 0.000  cost_ema=0.3776  eps=0.020  48s
+ep 110  R=  -244.39  q= 34.74  evdelay= 55.67s  lam= 0.000  cost_ema=0.5745  eps=0.020  49s
+ep 111  R=   -88.23  q= 13.75  evdelay= 24.25s  lam= 0.000  cost_ema=0.2192  eps=0.020  39s
+ep 112  R=   -59.13  q= 10.36  evdelay= 10.56s  lam= 0.000  cost_ema=0.0625  eps=0.020  33s
+ep 113  R=   -97.47  q= 15.04  evdelay= 20.88s  lam= 0.000  cost_ema=0.1039  eps=0.020  38s
+ep 114  R=   -70.14  q= 12.21  evdelay= 15.00s  lam= 0.000  cost_ema=0.2667  eps=0.020  35s
+ep 115  R=  -245.88  q= 38.96  evdelay= 48.21s  lam= 0.000  cost_ema=0.5381  eps=0.020  52s
+ep 116  R=   -48.06  q= 10.07  evdelay=  9.69s  lam= 0.000  cost_ema=0.1567  eps=0.020  34s
+ep 117  R=   -40.36  q=  8.44  evdelay= 14.90s  lam= 0.000  cost_ema=0.1650  eps=0.020  31s
+ep 118  R=   -95.04  q= 15.79  evdelay= 25.33s  lam= 0.000  cost_ema=0.1454  eps=0.020  39s
+ep 119  R=   -83.18  q= 14.75  evdelay= 21.19s  lam= 0.000  cost_ema=0.2107  eps=0.020  40s
+    eval: delay=64.36s  ev_stopped=25.20s  ev_stops=1.81  clean=0.16  cost=0.5606  queue=76.35
+ep 120  R=   -93.35  q= 16.63  evdelay= 25.36s  lam= 0.000  cost_ema=0.3087  eps=0.020  41s
+ep 121  R=   -83.15  q= 16.01  evdelay= 18.17s  lam= 0.000  cost_ema=0.1556  eps=0.020  38s
+ep 122  R=  -184.90  q= 31.03  evdelay= 39.22s  lam= 0.000  cost_ema=0.5496  eps=0.020  49s
+ep 123  R=   -65.82  q= 11.78  evdelay= 14.78s  lam= 0.000  cost_ema=0.1838  eps=0.020  33s
+ep 124  R=  -196.78  q= 29.72  evdelay= 21.18s  lam= 0.000  cost_ema=0.1633  eps=0.020  48s
+ep 125  R=   -86.05  q= 15.06  evdelay= 25.18s  lam= 0.000  cost_ema=0.2393  eps=0.020  41s
+ep 126  R=   -74.68  q= 14.07  evdelay= 17.71s  lam= 0.000  cost_ema=0.2914  eps=0.020  39s
+ep 127  R=  -221.59  q= 35.36  evdelay= 38.85s  lam= 0.000  cost_ema=0.4173  eps=0.020  50s
+ep 128  R=  -313.85  q= 46.23  evdelay= 61.89s  lam= 0.000  cost_ema=0.4501  eps=0.020  59s
+ep 129  R=  -117.37  q= 21.14  evdelay= 29.64s  lam= 0.000  cost_ema=0.3140  eps=0.020  39s
+ep 130  R=  -262.30  q= 36.99  evdelay= 35.19s  lam= 0.000  cost_ema=0.4115  eps=0.020  50s
+ep 131  R=   -94.20  q= 16.22  evdelay= 32.40s  lam= 0.000  cost_ema=0.4651  eps=0.020  38s
+ep 132  R=  -169.37  q= 29.19  evdelay= 31.75s  lam= 0.000  cost_ema=0.2224  eps=0.020  48s
+ep 133  R=  -167.75  q= 28.18  evdelay= 35.79s  lam= 0.000  cost_ema=0.4324  eps=0.020  46s
+ep 134  R= -2071.38  q= 84.84  evdelay=102.47s  lam= 0.000  cost_ema=1.1489  eps=0.020  93s
+    eval: delay=98.32s  ev_stopped=60.10s  ev_stops=3.09  clean=0.10  cost=0.4497  queue=63.62
+ep 135  R=   -85.40  q= 16.05  evdelay= 18.00s  lam= 0.000  cost_ema=0.2910  eps=0.020  39s
+ep 136  R=  -122.10  q= 21.04  evdelay= 22.90s  lam= 0.000  cost_ema=0.1610  eps=0.020  40s
+ep 137  R=   -91.67  q= 16.58  evdelay= 22.60s  lam= 0.000  cost_ema=0.1836  eps=0.020  40s
+ep 138  R=  -169.90  q= 27.52  evdelay= 21.62s  lam= 0.000  cost_ema=0.2306  eps=0.020  52s
+ep 139  R=  -121.11  q= 17.62  evdelay= 16.46s  lam= 0.000  cost_ema=0.1432  eps=0.020  52s
+ep 140  R=  -190.62  q= 33.25  evdelay= 56.31s  lam= 0.000  cost_ema=0.4155  eps=0.020  57s
+ep 141  R=  -101.08  q= 16.41  evdelay= 43.88s  lam= 0.000  cost_ema=0.2075  eps=0.020  40s
+ep 142  R=   -62.09  q= 11.41  evdelay= 14.31s  lam= 0.000  cost_ema=0.1587  eps=0.020  42s
+ep 143  R=  -134.35  q= 19.23  evdelay= 32.70s  lam= 0.000  cost_ema=0.2167  eps=0.020  48s
+ep 144  R=   -92.55  q= 16.13  evdelay= 28.50s  lam= 0.000  cost_ema=0.3449  eps=0.020  46s
+ep 145  R=  -200.89  q= 34.88  evdelay= 37.77s  lam= 0.000  cost_ema=0.3728  eps=0.020  58s
+ep 146  R= -6254.08  q=137.10  evdelay=257.70s  lam= 0.000  cost_ema=0.8554  eps=0.020  202s
+ep 147  R=   -50.20  q=  9.87  evdelay= 12.20s  lam= 0.000  cost_ema=0.2865  eps=0.020  48s
+ep 148  R=-23386.84  q=301.63  evdelay=1138.36s  lam= 0.000  cost_ema=3.8759  eps=0.020  357s
+ep 149  R=   -68.78  q= 13.02  evdelay= 17.62s  lam= 0.000  cost_ema=0.4064  eps=0.020  40s
+    eval: delay=51.60s  ev_stopped=32.27s  ev_stops=2.23  clean=0.03  cost=0.2864  queue=25.03
+ep 150  R=  -204.03  q= 32.95  evdelay= 28.29s  lam= 0.000  cost_ema=0.1919  eps=0.020  52s
+ep 151  R=  -240.83  q= 35.33  evdelay= 52.50s  lam= 0.000  cost_ema=0.7013  eps=0.020  71s
+ep 152  R=  -367.08  q= 50.87  evdelay= 58.60s  lam= 0.000  cost_ema=0.6424  eps=0.020  68s
+ep 153  R= -6165.73  q=120.46  evdelay=220.12s  lam= 0.000  cost_ema=1.4067  eps=0.020  104s
+ep 154  R=   -84.62  q= 15.47  evdelay= 28.38s  lam= 0.000  cost_ema=0.3697  eps=0.020  21s
+ep 155  R=   -52.05  q=  9.82  evdelay= 16.13s  lam= 0.000  cost_ema=0.2026  eps=0.020  17s
+ep 156  R=  -322.14  q= 31.90  evdelay= 32.40s  lam= 0.000  cost_ema=0.2717  eps=0.020  24s
+ep 157  R=   -55.30  q= 11.23  evdelay= 16.85s  lam= 0.000  cost_ema=0.2157  eps=0.020  18s
+ep 158  R=  -112.96  q= 17.53  evdelay= 16.92s  lam= 0.000  cost_ema=0.1829  eps=0.020  20s
+ep 159  R=  -213.62  q= 32.53  evdelay= 54.18s  lam= 0.000  cost_ema=0.4293  eps=0.020  26s
+ep 160  R=   -51.47  q= 10.10  evdelay= 16.39s  lam= 0.000  cost_ema=0.2653  eps=0.020  18s
+ep 161  R=  -118.03  q= 20.06  evdelay= 17.69s  lam= 0.000  cost_ema=0.1560  eps=0.020  21s
+ep 162  R=  -142.83  q= 24.69  evdelay= 22.00s  lam= 0.000  cost_ema=0.3268  eps=0.020  22s
+ep 163  R=   -71.95  q= 14.42  evdelay= 17.93s  lam= 0.000  cost_ema=0.2278  eps=0.020  20s
+ep 164  R=  -186.25  q= 31.24  evdelay= 33.00s  lam= 0.000  cost_ema=0.2642  eps=0.020  26s
+    eval: delay=43.99s  ev_stopped=37.50s  ev_stops=2.30  clean=0.03  cost=0.3056  queue=22.12
+ep 165  R=  -196.00  q= 32.95  evdelay= 50.69s  lam= 0.000  cost_ema=0.5243  eps=0.020  26s
+ep 166  R=  -195.13  q= 30.82  evdelay= 46.80s  lam= 0.000  cost_ema=0.4949  eps=0.020  37s
+ep 167  R=  -141.47  q= 22.05  evdelay= 24.17s  lam= 0.000  cost_ema=0.3260  eps=0.020  30s
+ep 168  R=   -72.39  q= 13.78  evdelay= 19.63s  lam= 0.000  cost_ema=0.2579  eps=0.020  33s
+ep 169  R=  -233.66  q= 37.78  evdelay= 43.78s  lam= 0.000  cost_ema=0.6375  eps=0.020  43s
+ep 170  R=  -125.42  q= 21.02  evdelay= 12.69s  lam= 0.000  cost_ema=0.2479  eps=0.020  23s
+ep 171  R=  -245.60  q= 34.71  evdelay= 78.70s  lam= 0.000  cost_ema=0.4501  eps=0.020  28s
+ep 172  R=   -67.66  q= 13.42  evdelay= 17.53s  lam= 0.000  cost_ema=0.1774  eps=0.020  20s
+ep 173  R=  -222.25  q= 34.41  evdelay= 68.29s  lam= 0.000  cost_ema=0.5854  eps=0.020  27s
+ep 174  R=   -95.64  q= 17.69  evdelay= 23.52s  lam= 0.000  cost_ema=0.3496  eps=0.020  27s
+ep 175  R=  -322.12  q= 51.60  evdelay= 65.22s  lam= 0.000  cost_ema=1.0823  eps=0.020  42s
+ep 176  R=   -50.12  q=  9.72  evdelay= 16.62s  lam= 0.000  cost_ema=0.2010  eps=0.020  20s
+ep 177  R=  -302.90  q= 44.86  evdelay= 42.00s  lam= 0.000  cost_ema=0.4184  eps=0.020  29s
+ep 178  R=  -207.80  q= 35.34  evdelay= 45.43s  lam= 0.000  cost_ema=0.4731  eps=0.020  26s
+ep 179  R=  -170.49  q= 26.86  evdelay= 44.18s  lam= 0.000  cost_ema=0.3335  eps=0.020  24s
+    eval: delay=65.74s  ev_stopped=33.52s  ev_stops=2.25  clean=0.08  cost=0.2910  queue=33.32
+ep 180  R=   -52.82  q= 10.55  evdelay= 12.17s  lam= 0.000  cost_ema=0.1825  eps=0.020  17s
+ep 181  R=  -146.18  q= 26.36  evdelay= 33.05s  lam= 0.000  cost_ema=0.4049  eps=0.020  23s
+ep 182  R=  -212.87  q= 33.92  evdelay= 43.50s  lam= 0.000  cost_ema=0.6467  eps=0.020  27s
+ep 183  R=  -183.09  q= 27.25  evdelay= 40.92s  lam= 0.000  cost_ema=0.3145  eps=0.020  26s
+ep 184  R=   -84.98  q= 16.09  evdelay= 13.11s  lam= 0.000  cost_ema=0.1795  eps=0.020  21s
+ep 185  R=   -68.94  q= 14.05  evdelay= 10.90s  lam= 0.000  cost_ema=0.0922  eps=0.020  19s
+ep 186  R=   -49.95  q=  9.54  evdelay= 15.92s  lam= 0.000  cost_ema=0.1492  eps=0.020  17s
+ep 187  R=  -317.69  q= 47.67  evdelay= 43.85s  lam= 0.000  cost_ema=0.3504  eps=0.020  31s
+ep 188  R=   -84.16  q= 16.07  evdelay= 16.90s  lam= 0.000  cost_ema=0.1314  eps=0.020  19s
+ep 189  R=   -96.61  q= 16.47  evdelay= 20.29s  lam= 0.000  cost_ema=0.2540  eps=0.020  27s
+ep 190  R=   -72.34  q= 13.83  evdelay= 17.93s  lam= 0.000  cost_ema=0.2235  eps=0.020  19s
+ep 191  R=   -46.93  q=  9.31  evdelay= 13.32s  lam= 0.000  cost_ema=0.2960  eps=0.020  17s
+ep 192  R=  -123.75  q= 23.62  evdelay= 32.27s  lam= 0.000  cost_ema=0.3312  eps=0.020  25s
+ep 193  R=  -155.63  q= 25.48  evdelay= 33.94s  lam= 0.000  cost_ema=0.4434  eps=0.020  23s
+ep 194  R=  -152.85  q= 29.85  evdelay= 17.21s  lam= 0.000  cost_ema=0.2987  eps=0.020  27s
+    eval: delay=46.08s  ev_stopped=29.63s  ev_stops=1.89  clean=0.11  cost=0.2694  queue=22.64
+ep 195  R=   -99.86  q= 17.43  evdelay= 16.22s  lam= 0.000  cost_ema=0.0739  eps=0.020  21s
+ep 196  R=  -136.76  q= 21.50  evdelay= 28.69s  lam= 0.000  cost_ema=0.2420  eps=0.020  23s
+ep 197  R=  -184.85  q= 28.25  evdelay= 24.64s  lam= 0.000  cost_ema=0.1946  eps=0.020  25s
+ep 198  R=   -92.34  q= 16.03  evdelay= 18.53s  lam= 0.000  cost_ema=0.2103  eps=0.020  20s
+ep 199  R=   -83.06  q= 14.72  evdelay= 28.18s  lam= 0.000  cost_ema=0.3565  eps=0.020  21s
+    eval: delay=54.36s  ev_stopped=31.40s  ev_stops=2.18  clean=0.09  cost=0.2793  queue=25.33
+
+done in 287.8 min; feasible; best delay 42.78s at cost 0.2278 -> models\siren_arc_mixed.h5

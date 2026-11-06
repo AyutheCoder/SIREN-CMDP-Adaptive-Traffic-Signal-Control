@@ -1,0 +1,172 @@
+{
+  "config": {
+    "episodes": 6,
+    "horizon_s": 3600,
+    "ev_rate_per_hour": 40.0,
+    "regime": "balanced",
+    "sensing": "surrogate",
+    "controller": "max_pressure",
+    "seeds": [
+      700000,
+      700001,
+      700002,
+      700003,
+      700004,
+      700005
+    ]
+  },
+  "modes": {
+    "joint": {
+      "n_approach_epochs": 11856,
+      "occupancy": 0.0939608636977058,
+      "auc": 0.9251826418691778,
+      "ece": 0.06615836025401092,
+      "brier": 0.07234173926792226,
+      "median_epoch_us": 44715.45000342303,
+      "ece_calibrated": 0.007264598160627236,
+      "brier_calibrated": 0.056007291005088986,
+      "max_calibrated_p": 0.628140703517588,
+      "prf@0.25": {
+        "precision": 0.5159322033898305,
+        "recall": 0.6831238779174147,
+        "f1": 0.5878717651602936,
+        "false_alarms_per_hour": 714.0
+      },
+      "arms_above@0.25": 1.0357142857142858,
+      "arrival_detection_rate@0.25": 0.9400921658986175,
+      "warning_range_m@0.25": 151.9331288537343,
+      "warning_range_median_m@0.25": 151.1634888420266,
+      "prf@0.5": {
+        "precision": 0.5323308270676692,
+        "recall": 0.6355475763016158,
+        "f1": 0.5793780687397708,
+        "false_alarms_per_hour": 622.0
+      },
+      "arms_above@0.5": 0.937192118226601,
+      "arrival_detection_rate@0.5": 0.9262672811059908,
+      "warning_range_m@0.5": 146.2457519820324,
+      "warning_range_median_m@0.5": 147.53376198633686,
+      "prf@0.75": {
+        "precision": 0.5539170506912442,
+        "recall": 0.5394973070017953,
+        "f1": 0.5466120964074579,
+        "false_alarms_per_hour": 484.0
+      },
+      "arms_above@0.75": 0.7672413793103449,
+      "arrival_detection_rate@0.75": 0.880184331797235,
+      "warning_range_m@0.75": 143.51542917067175,
+      "warning_range_median_m@0.75": 143.72600436213546,
+      "epochs_with_1_inbound": 0.2739541160593792,
+      "epochs_with_2_inbound": 0.048920377867746286,
+      "epochs_with_3plus_inbound": 0.001349527665317139,
+      "two_source_posterior_mass": 0.04503153813909528,
+      "localisation_top1": 0.7487684729064039,
+      "false_positive_kinds": {
+        "hallucination": 0.45819935691318325,
+        "mislocalised": 0.2909967845659164,
+        "stale_tail": 0.2508038585209003
+      },
+      "false_positive_total": 622,
+      "eta_mae_s": 29.668818437336714,
+      "eta_median_ae_s": 36.457824469732856,
+      "range_mae_m": 103.0596400229548,
+      "range_median_ae_m": 40.85792841128866,
+      "range_mae_m_0_100": 92.40819448498996,
+      "range_mae_m_100_220": 123.67950867855897,
+      "range_mae_m_220_320": 124.57032602922843,
+      "class_accuracy": 0.9120287253141831,
+      "class_confusion": {
+        "ambulance": {
+          "ambulance": 526,
+          "fire": 22,
+          "police": 23
+        },
+        "fire": {
+          "ambulance": 11,
+          "fire": 236,
+          "police": 1
+        },
+        "police": {
+          "ambulance": 28,
+          "fire": 13,
+          "police": 254
+        }
+      },
+      "triage_weight_mae": 0.05740401690493746
+    },
+    "independent": {
+      "n_approach_epochs": 11856,
+      "occupancy": 0.0939608636977058,
+      "auc": 0.9084400666255076,
+      "ece": 0.1884966076666335,
+      "brier": 0.1712214722969621,
+      "median_epoch_us": 27882.874999704654,
+      "prf@0.25": {
+        "precision": 0.26851851851851855,
+        "recall": 0.9371633752244165,
+        "f1": 0.41743302678928434,
+        "false_alarms_per_hour": 2844.0
+      },
+      "arms_above@0.25": 2.5073891625615765,
+      "arrival_detection_rate@0.25": 1.0,
+      "warning_range_m@0.25": 202.0189493489873,
+      "warning_range_median_m@0.25": 215.27849884825022,
+      "prf@0.5": {
+        "precision": 0.2943075117370892,
+        "recall": 0.900359066427289,
+        "f1": 0.44360902255639095,
+        "false_alarms_per_hour": 2405.0
+      },
+      "arms_above@0.5": 2.2586206896551726,
+      "arrival_detection_rate@0.5": 1.0,
+      "warning_range_m@0.5": 191.92881113419958,
+      "warning_range_median_m@0.5": 200.94786990645136,
+      "prf@0.75": {
+        "precision": 0.33106657122405153,
+        "recall": 0.8303411131059246,
+        "f1": 0.4733879222108496,
+        "false_alarms_per_hour": 1869.0
+      },
+      "arms_above@0.75": 1.9100985221674878,
+      "arrival_detection_rate@0.75": 1.0,
+      "warning_range_m@0.75": 176.72170597855805,
+      "warning_range_median_m@0.75": 183.90338465858179,
+      "epochs_with_1_inbound": 0.2739541160593792,
+      "epochs_with_2_inbound": 0.048920377867746286,
+      "epochs_with_3plus_inbound": 0.001349527665317139,
+      "localisation_top1": 0.645320197044335,
+      "false_positive_kinds": {
+        "hallucination": 0.35550935550935553,
+        "mislocalised": 0.4781704781704782,
+        "stale_tail": 0.16632016632016633
+      },
+      "false_positive_total": 2405,
+      "eta_mae_s": 32.581161965281716,
+      "eta_median_ae_s": 42.8708240726162,
+      "range_mae_m": 68.56502096145336,
+      "range_median_ae_m": 73.90077844336545,
+      "range_mae_m_0_100": 80.64544443770998,
+      "range_mae_m_100_220": 26.096061277791478,
+      "range_mae_m_220_320": 70.95777238304497,
+      "class_accuracy": 0.9192100538599641,
+      "class_confusion": {
+        "ambulance": {
+          "ambulance": 539,
+          "fire": 15,
+          "police": 17
+        },
+        "fire": {
+          "ambulance": 11,
+          "fire": 237,
+          "police": 0
+        },
+        "police": {
+          "ambulance": 29,
+          "fire": 18,
+          "police": 248
+        }
+      },
+      "triage_weight_mae": 0.041436531061117755
+    }
+  }
+}

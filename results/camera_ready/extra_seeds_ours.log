@@ -1,0 +1,97 @@
+
+regime=balanced  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=18
+
+  loaded base_arc (lambda=0.000)
+  [base_arc] seed=50012  delay=  23.74s  ev_stopped= 13.97s  ev_stops= 1.00  queue= 10.67  (56.1s)
+  [base_arc] seed=50013  delay=  22.25s  ev_stopped= 15.35s  ev_stops= 1.12  queue=  9.74  (59.4s)
+  [base_arc] seed=50014  delay=  22.92s  ev_stopped= 15.65s  ev_stops= 1.26  queue= 10.20  (60.8s)
+  [base_arc] seed=50015  delay=  24.96s  ev_stopped= 19.79s  ev_stops= 1.29  queue= 11.56  (64.3s)
+  [base_arc] seed=50016  delay=  26.12s  ev_stopped= 15.55s  ev_stops= 1.13  queue= 12.08  (67.0s)
+  [base_arc] seed=50017  delay=  24.22s  ev_stopped= 10.04s  ev_stops= 0.89  queue= 11.01  (80.1s)
+  [base_arc] seed=50018  delay=  23.41s  ev_stopped= 13.23s  ev_stops= 1.13  queue= 10.60  (66.8s)
+  [base_arc] seed=50019  delay=  22.20s  ev_stopped= 14.29s  ev_stops= 1.00  queue=  9.78  (62.2s)
+  [base_arc] seed=50020  delay=  23.21s  ev_stopped= 14.56s  ev_stops= 0.92  queue= 10.42  (68.2s)
+  [base_arc] seed=50021  delay=  24.22s  ev_stopped= 18.30s  ev_stops= 1.23  queue= 11.00  (61.6s)
+  [base_arc] seed=50022  delay=  22.20s  ev_stopped= 17.25s  ev_stops= 1.14  queue=  9.61  (69.6s)
+  [base_arc] seed=50023  delay=  22.66s  ev_stopped= 14.51s  ev_stops= 1.09  queue= 10.07  (100.2s)
+ Retrying in 1 seconds
+  [base_arc] seed=50024  delay=  22.29s  ev_stopped= 11.46s  ev_stops= 1.00  queue=  9.53  (89.2s)
+ Retrying in 1 seconds
+  [base_arc] seed=50025  delay=  23.32s  ev_stopped= 13.48s  ev_stops= 0.93  queue= 10.12  (94.0s)
+ Retrying in 1 seconds
+Could not connect to TraCI server at localhost:63415 [WinError 10061] No connection could be made because the target machine actively refused it
+ Retrying in 1 seconds
+  [base_arc] seed=50026  delay=  21.97s  ev_stopped= 13.29s  ev_stops= 0.93  queue=  9.56  (93.5s)
+  [base_arc] seed=50027  delay=  23.70s  ev_stopped= 18.12s  ev_stops= 1.18  queue= 10.94  (114.0s)
+ Retrying in 1 seconds
+  [base_arc] seed=50028  delay=  22.86s  ev_stopped= 15.12s  ev_stops= 1.12  queue=  9.84  (119.3s)
+  [base_arc] seed=50029  delay=  22.88s  ev_stopped= 19.22s  ev_stops= 1.22  queue= 10.29  (74.2s)
+  loaded base_cmdp (lambda=4.001)
+  [base_cmdp] seed=50012  delay=  24.11s  ev_stopped= 11.70s  ev_stops= 1.30  queue= 10.92  (141.4s)
+ Retrying in 1 seconds
+  [base_cmdp] seed=50013  delay=  22.84s  ev_stopped=  7.69s  ev_stops= 0.81  queue= 10.09  (187.6s)
+ Retrying in 1 seconds
+  [base_cmdp] seed=50014  delay=  23.77s  ev_stopped= 15.65s  ev_stops= 1.35  queue= 10.84  (212.1s)
+ Retrying in 1 seconds
+  [base_cmdp] seed=50015  delay=  24.53s  ev_stopped= 13.79s  ev_stops= 1.04  queue= 11.37  (127.1s)
+  [base_cmdp] seed=50016  delay=  22.89s  ev_stopped= 13.10s  ev_stops= 1.06  queue= 10.19  (110.2s)
+  [base_cmdp] seed=50017  delay=  22.55s  ev_stopped= 12.85s  ev_stops= 1.11  queue= 10.01  (85.0s)
+  [base_cmdp] seed=50018  delay=  22.65s  ev_stopped= 11.00s  ev_stops= 1.03  queue= 10.06  (67.5s)
+  [base_cmdp] seed=50019  delay=  22.37s  ev_stopped= 12.55s  ev_stops= 1.08  queue=  9.89  (67.2s)
+  [base_cmdp] seed=50020  delay=  26.35s  ev_stopped= 11.92s  ev_stops= 0.96  queue= 12.44  (117.0s)
+ Retrying in 1 seconds
+  [base_cmdp] seed=50021  delay=  23.27s  ev_stopped= 12.53s  ev_stops= 1.03  queue= 10.35  (163.2s)
+  [base_cmdp] seed=50022  delay=  21.83s  ev_stopped= 12.93s  ev_stops= 1.11  queue=  9.35  (153.3s)
+  [base_cmdp] seed=50023  delay=  32.69s  ev_stopped= 22.14s  ev_stops= 1.03  queue= 15.42  (178.9s)
+  [base_cmdp] seed=50024  delay=  22.70s  ev_stopped=  8.17s  ev_stops= 0.94  queue=  9.87  (151.6s)
+  [base_cmdp] seed=50025  delay=  22.43s  ev_stopped= 15.86s  ev_stops= 1.21  queue=  9.84  (149.3s)
+  [base_cmdp] seed=50026  delay=  23.33s  ev_stopped= 13.79s  ev_stops= 0.96  queue= 10.45  (150.5s)
+  [base_cmdp] seed=50027  delay=  23.98s  ev_stopped= 15.43s  ev_stops= 0.97  queue= 10.83  (162.5s)
+  [base_cmdp] seed=50028  delay=  23.86s  ev_stopped= 15.00s  ev_stops= 1.03  queue= 10.69  (163.3s)
+  [base_cmdp] seed=50029  delay=  24.17s  ev_stopped= 10.61s  ev_stops= 0.78  queue= 11.09  (150.5s)
+  loaded siren_arc (lambda=0.000)
+  [siren_arc] seed=50012  delay=  25.30s  ev_stopped=  8.88s  ev_stops= 0.97  queue= 11.51  (195.2s)
+  [siren_arc] seed=50013  delay=  25.61s  ev_stopped=  7.77s  ev_stops= 0.65  queue= 11.85  (189.4s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50014  delay=  23.78s  ev_stopped= 10.61s  ev_stops= 1.03  queue= 10.79  (196.2s)
+  [siren_arc] seed=50015  delay=  24.33s  ev_stopped=  8.54s  ev_stops= 1.00  queue= 11.14  (193.1s)
+  [siren_arc] seed=50016  delay=  24.99s  ev_stopped=  7.52s  ev_stops= 0.71  queue= 11.46  (195.8s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50017  delay=  26.12s  ev_stopped= 11.52s  ev_stops= 0.89  queue= 12.17  (196.9s)
+  [siren_arc] seed=50018  delay=  23.99s  ev_stopped=  7.48s  ev_stops= 0.87  queue= 10.97  (184.2s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50019  delay=  25.39s  ev_stopped= 11.21s  ev_stops= 0.97  queue= 11.80  (204.1s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50020  delay=  23.46s  ev_stopped=  6.60s  ev_stops= 0.76  queue= 10.63  (191.7s)
+  [siren_arc] seed=50021  delay=  25.64s  ev_stopped=  7.63s  ev_stops= 0.87  queue= 11.73  (189.1s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50022  delay=  23.88s  ev_stopped=  8.29s  ev_stops= 0.93  queue= 10.62  (191.8s)
+  [siren_arc] seed=50023  delay=  25.94s  ev_stopped=  8.46s  ev_stops= 0.86  queue= 11.73  (202.5s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50024  delay=  24.71s  ev_stopped=  7.23s  ev_stops= 0.89  queue= 10.68  (197.8s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50025  delay=  25.81s  ev_stopped=  7.28s  ev_stops= 0.90  queue= 11.89  (191.1s)
+  [siren_arc] seed=50026  delay=  26.22s  ev_stopped= 10.89s  ev_stops= 0.93  queue= 12.13  (200.3s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50027  delay=  23.60s  ev_stopped=  6.03s  ev_stops= 0.78  queue= 10.82  (198.1s)
+  [siren_arc] seed=50028  delay=  27.61s  ev_stopped= 11.85s  ev_stops= 0.97  queue= 13.13  (201.9s)
+ Retrying in 1 seconds
+  [siren_arc] seed=50029  delay=  24.56s  ev_stopped= 11.67s  ev_stops= 1.00  queue= 11.28  (183.2s)
+  loaded siren_cmdp (lambda=4.001)
+  [siren_cmdp] seed=50012  delay=  24.39s  ev_stopped=  7.76s  ev_stops= 1.09  queue= 10.98  (196.4s)
+ Retrying in 1 seconds
+  [siren_cmdp] seed=50013  delay=  23.30s  ev_stopped=  6.85s  ev_stops= 0.69  queue= 10.30  (191.3s)
+  [siren_cmdp] seed=50014  delay=  24.77s  ev_stopped=  9.68s  ev_stops= 1.19  queue= 11.43  (197.0s)
+  [siren_cmdp] seed=50015  delay=  24.26s  ev_stopped=  9.71s  ev_stops= 0.93  queue= 11.16  (190.1s)
+  [siren_cmdp] seed=50016  delay=  24.58s  ev_stopped=  9.94s  ev_stops= 0.97  queue= 11.30  (192.4s)
+ Retrying in 1 seconds
+  [siren_cmdp] seed=50017  delay=  23.77s  ev_stopped=  7.15s  ev_stops= 0.70  queue= 10.38  (194.9s)
+ Retrying in 1 seconds
+  [siren_cmdp] seed=50018  delay=  23.30s  ev_stopped=  8.94s  ev_stops= 0.74  queue= 10.33  (201.6s)
+  [siren_cmdp] seed=50019  delay=  24.08s  ev_stopped=  8.21s  ev_stops= 0.82  queue= 10.87  (198.9s)
+  [siren_cmdp] seed=50020  delay=  23.99s  ev_stopped=  4.48s  ev_stops= 0.60  queue= 10.81  (193.5s)
+ Retrying in 1 seconds
+  [siren_cmdp] seed=50021  delay=  26.34s  ev_stopped=  9.80s  ev_stops= 1.03  queue= 12.37  (199.0s)
+  [siren_cmdp] seed=50022  delay=  21.91s  ev_stopped=  6.61s  ev_stops= 0.89  queue=  9.39  (187.2s)
+  [siren_cmdp] seed=50023  delay=  25.70s  ev_stopped=  7.40s  ev_stops= 0.89  queue= 11.89  (198.9s)
+  [siren_cmdp] seed=50024  delay=  25.10s  ev_stopped=  6.40s  ev_stops= 0.69  queue= 11.23  (207.1s)

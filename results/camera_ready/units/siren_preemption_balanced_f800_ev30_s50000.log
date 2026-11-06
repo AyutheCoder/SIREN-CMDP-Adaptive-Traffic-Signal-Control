@@ -1,0 +1,13 @@
+
+regime=balanced  flow=800.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  [max_pressure_preempt] seed=50000  delay=  32.20s  ev_stopped=  8.34s  ev_stops= 1.06  queue= 17.47  (64.3s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+max_pressure_preempt         32.20+-0.00     73.53+-0.00     17.47+-0.00      8.34+-0.00      1.06+-0.00     0.257+-0.000   med= 32.20 jam=0/1
+======================================================================================================================
+
+wrote results\camera_ready\units\siren_preemption_balanced_f800_ev30_s50000.json
+wrote results\camera_ready\units\siren_preemption_balanced_f800_ev30_s50000.csv

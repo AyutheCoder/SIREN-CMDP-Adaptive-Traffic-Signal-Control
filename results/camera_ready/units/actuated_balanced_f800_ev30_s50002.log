@@ -1,0 +1,13 @@
+
+regime=balanced  flow=800.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  [actuated] seed=50002  delay=  30.09s  ev_stopped= 24.29s  ev_stops= 0.96  queue= 17.65  (103.7s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+actuated                     30.09+-0.00     64.08+-0.00     17.65+-0.00     24.29+-0.00      0.96+-0.00     0.214+-0.000   med= 30.09 jam=0/1
+======================================================================================================================
+
+wrote results\camera_ready\units\actuated_balanced_f800_ev30_s50002.json
+wrote results\camera_ready\units\actuated_balanced_f800_ev30_s50002.csv

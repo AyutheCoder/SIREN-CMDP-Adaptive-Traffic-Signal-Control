@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "controller": "fixed_time",
+      "mean_cost": 0.2807750479448747,
+      "ev_wait_per_vehicle_s": 18.334615384615383,
+      "ev_stops_per_vehicle": 1.0,
+      "mean_queue": 10.814442072416753
+    },
+    {
+      "controller": "max_pressure",
+      "mean_cost": 0.19959348671277644,
+      "ev_wait_per_vehicle_s": 10.96923076923077,
+      "ev_stops_per_vehicle": 0.9653846153846154,
+      "mean_queue": 10.065496684349348
+    },
+    {
+      "controller": "max_pressure_preempt",
+      "mean_cost": 0.16064666599766605,
+      "ev_wait_per_vehicle_s": 12.307692307692307,
+      "ev_stops_per_vehicle": 0.6461538461538461,
+      "mean_queue": 13.183358429535442
+    }
+  ],
+  "cost_ordering_ok": true,
+  "outcome_ordering_ok": true,
+  "relative_spread": 0.5622099842144149,
+  "horizon_s": 1200,
+  "ev_rate_per_hour": 24.0
+}

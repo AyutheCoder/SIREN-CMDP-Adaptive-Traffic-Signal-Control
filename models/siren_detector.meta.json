@@ -1,0 +1,15 @@
+{
+  "input_shape": [
+    64,
+    59,
+    1
+  ],
+  "class_map": {
+    "none": 0,
+    "ambulance": 1,
+    "fire": 2,
+    "police": 3,
+    "horn": 4
+  },
+  "max_radial_speed_ms": 30.0
+}

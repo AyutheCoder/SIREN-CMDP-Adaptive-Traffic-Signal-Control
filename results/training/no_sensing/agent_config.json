@@ -1,0 +1,31 @@
+{
+  "hidden_units": [
+    256,
+    256
+  ],
+  "learning_rate": 0.0003,
+  "gamma": 0.95,
+  "batch_size": 64,
+  "buffer_size": 60000,
+  "n_step": 3,
+  "target_sync_steps": 500,
+  "train_every": 4,
+  "warmup_transitions": 1500,
+  "grad_clip_norm": 10.0,
+  "epsilon_start": 1.0,
+  "epsilon_final": 0.02,
+  "epsilon_decay_steps": 20000,
+  "per_alpha": 0.6,
+  "per_beta_start": 0.4,
+  "per_beta_final": 1.0,
+  "per_eps": 0.001,
+  "constrained": true,
+  "cost_budget": 0.18,
+  "lambda_init": 1.0,
+  "lambda_lr": 0.01,
+  "lambda_max": 30.0,
+  "lambda_warmup_steps": 6000,
+  "cost_gamma": 0.95,
+  "cost_ema": 0.99,
+  "seed": 0
+}

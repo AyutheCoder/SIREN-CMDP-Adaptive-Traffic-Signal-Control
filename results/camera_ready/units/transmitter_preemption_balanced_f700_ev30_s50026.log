@@ -1,0 +1,13 @@
+
+regime=balanced  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  [max_pressure_preempt_oracle] seed=50026  delay=  24.61s  ev_stopped=  8.00s  ev_stops= 0.57  queue= 11.25  (82.7s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+max_pressure_preempt_oracle     24.61+-0.00     58.59+-0.00     11.25+-0.00      8.00+-0.00      0.57+-0.00     0.536+-0.000   med= 24.61 jam=0/1
+======================================================================================================================
+
+wrote results\camera_ready\units\transmitter_preemption_balanced_f700_ev30_s50026.json
+wrote results\camera_ready\units\transmitter_preemption_balanced_f700_ev30_s50026.csv

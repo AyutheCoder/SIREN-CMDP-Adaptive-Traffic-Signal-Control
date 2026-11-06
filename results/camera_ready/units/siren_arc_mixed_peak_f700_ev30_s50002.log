@@ -1,0 +1,14 @@
+
+regime=peak  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  loaded siren_arc_mixed (lambda=0.000)
+  [siren_arc_mixed] seed=50002  delay= 143.55s  ev_stopped=143.24s  ev_stops= 2.00  queue=265.55  (195.3s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+siren_arc_mixed             143.55+-0.00    908.21+-0.00    265.55+-0.00    143.24+-0.00      2.00+-0.00     0.294+-0.000   med=143.55 jam=1/1
+======================================================================================================================
+
+wrote results\camera_ready\units\siren_arc_mixed_peak_f700_ev30_s50002.json
+wrote results\camera_ready\units\siren_arc_mixed_peak_f700_ev30_s50002.csv

@@ -1,0 +1,102 @@
+{
+ "flow700_ev30": {
+  "siren_arc": {
+   "n": 4,
+   "delay": 24.223406310200026,
+   "ev_stopped": 7.538398692810458,
+   "jammed": 0
+  },
+  "siren_preemption": {
+   "n": 4,
+   "delay": 27.536477767596,
+   "ev_stopped": 9.524193548387096,
+   "jammed": 0
+  },
+  "actuated": {
+   "n": 4,
+   "delay": 27.471389824860914,
+   "ev_stopped": 18.40994623655914,
+   "jammed": 0
+  }
+ },
+ "flow500_ev30": {
+  "siren_arc": {
+   "n": 4,
+   "delay": 19.901948772677677,
+   "ev_stopped": 5.005417956656347,
+   "jammed": 0
+  },
+  "siren_preemption": {
+   "n": 4,
+   "delay": 21.14713422104832,
+   "ev_stopped": 5.913312693498452,
+   "jammed": 0
+  },
+  "actuated": {
+   "n": 4,
+   "delay": 23.462216322826066,
+   "ev_stopped": 17.205375253549697,
+   "jammed": 0
+  }
+ },
+ "flow800_ev30": {
+  "siren_arc": {
+   "n": 4,
+   "delay": 30.831988400292346,
+   "ev_stopped": 11.867857142857144,
+   "jammed": 0
+  },
+  "siren_preemption": {
+   "n": 4,
+   "delay": 34.46953635910973,
+   "ev_stopped": 11.446428571428571,
+   "jammed": 0
+  },
+  "actuated": {
+   "n": 4,
+   "delay": 29.43966345955711,
+   "ev_stopped": 22.906015037593985,
+   "jammed": 0
+  }
+ },
+ "flow700_ev15": {
+  "siren_arc": {
+   "n": 4,
+   "delay": 23.48734795936705,
+   "ev_stopped": 10.19047619047619,
+   "jammed": 0
+  },
+  "siren_preemption": {
+   "n": 4,
+   "delay": 31.251099107921014,
+   "ev_stopped": 10.052380952380952,
+   "jammed": 0
+  },
+  "actuated": {
+   "n": 4,
+   "delay": 27.398779254136716,
+   "ev_stopped": 21.871428571428574,
+   "jammed": 0
+  }
+ },
+ "flow700_ev60": {
+  "siren_arc": {
+   "n": 4,
+   "delay": 26.069393110355847,
+   "ev_stopped": 9.070294784580499,
+   "jammed": 0
+  },
+  "siren_preemption": {
+   "n": 4,
+   "delay": 31.272375621351713,
+   "ev_stopped": 10.7609126984127,
+   "jammed": 0
+  },
+  "actuated": {
+   "n": 4,
+   "delay": 27.347038340198218,
+   "ev_stopped": 19.135660980810236,
+   "jammed": 0
+  }
+ }
+}

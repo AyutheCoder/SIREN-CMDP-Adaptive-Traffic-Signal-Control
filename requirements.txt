@@ -1,0 +1,13 @@
+# SIREN-CMDP dependencies.
+#
+# Deliberately minimal. The signal processing (STFT, mel filterbank, reverb) is
+# implemented in NumPy rather than pulled from librosa/scipy so that the feature
+# extraction a reviewer runs is byte-identical to the one used here, with no
+# transitive-dependency drift. Nothing beyond this list is required.
+#
+# SUMO is a separate, non-pip install: https://sumo.dlr.de/docs/Downloads.php
+# Set SUMO_HOME so that `sumolib` and `traci` are importable (SUMO >= 1.20).
+
+numpy>=1.23,<2.0
+tensorflow>=2.10,<2.17
+matplotlib>=3.6

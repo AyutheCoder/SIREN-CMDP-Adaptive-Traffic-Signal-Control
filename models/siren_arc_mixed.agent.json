@@ -1,0 +1,18 @@
+{
+  "state_dim": 85,
+  "n_actions": 4,
+  "lambda": 0.0,
+  "cost_ema": 0.139023288291651,
+  "train_steps": 4982,
+  "env_steps": 21431,
+  "cost_budget": 0.06,
+  "constrained": false,
+  "sensing_mode": "surrogate",
+  "belief_mode": "joint",
+  "run_name": "siren_arc_mixed",
+  "train_episodes": 200,
+  "train_horizon_s": 1800,
+  "train_regime": "mixed",
+  "ev_rate_per_hour": 30.0,
+  "max_starvation_s": 180.0
+}

@@ -1,0 +1,14 @@
+
+regime=balanced  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  loaded siren_arc_mixed (lambda=0.000)
+  [siren_arc_mixed] seed=50007  delay=  24.17s  ev_stopped= 13.20s  ev_stops= 1.00  queue= 10.83  (35.6s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+siren_arc_mixed              24.17+-0.00     52.96+-0.00     10.83+-0.00     13.20+-0.00      1.00+-0.00     0.267+-0.000   med= 24.17 jam=0/1
+======================================================================================================================
+
+wrote results\camera_ready\units\siren_arc_mixed_balanced_f700_ev30_s50007.json
+wrote results\camera_ready\units\siren_arc_mixed_balanced_f700_ev30_s50007.csv

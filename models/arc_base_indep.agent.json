@@ -1,0 +1,18 @@
+{
+  "state_dim": 85,
+  "n_actions": 4,
+  "lambda": 0.0,
+  "cost_ema": 0.2322626287879032,
+  "train_steps": 8349,
+  "env_steps": 34898,
+  "cost_budget": 0.06,
+  "constrained": false,
+  "sensing_mode": "surrogate",
+  "belief_mode": "independent",
+  "run_name": "arc_base_indep",
+  "train_episodes": 200,
+  "train_horizon_s": 1800,
+  "train_regime": "balanced",
+  "ev_rate_per_hour": 30.0,
+  "max_starvation_s": 180.0
+}

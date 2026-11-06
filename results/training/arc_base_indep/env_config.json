@@ -1,0 +1,125 @@
+{
+  "network": {
+    "name": "single",
+    "rows": 1,
+    "cols": 1,
+    "arm_length_m": 320.0,
+    "lanes_per_approach": 3,
+    "speed_limit_ms": 13.89,
+    "left_turn_lane": true,
+    "right_turn_on_lane0": true,
+    "junction_type": "traffic_light"
+  },
+  "demand": {
+    "horizon_s": 1800,
+    "seed": 0,
+    "regime": "balanced",
+    "base_flow_vph": 700.0,
+    "turn_ratios": [
+      0.15,
+      0.7,
+      0.15
+    ],
+    "ev_rate_per_hour": 30.0,
+    "ev_class_weights": {
+      "ambulance": 0.55,
+      "fire": 0.2,
+      "police": 0.25
+    },
+    "ev_priority": {
+      "ambulance": 1.0,
+      "fire": 0.9,
+      "police": 0.7
+    },
+    "car_following_sigma": 0.5,
+    "depart_speed": "max"
+  },
+  "control": {
+    "min_green_s": 8.0,
+    "max_green_s": 55.0,
+    "yellow_s": 3.0,
+    "all_red_s": 2.0,
+    "decision_interval_s": 5.0,
+    "max_starvation_s": 180.0,
+    "gap_out_queue": 0.0,
+    "gap_out_min_waiting": 1.0,
+    "gap_out_max_load": 30.0,
+    "congestion_queue": 0.0,
+    "congested_max_green_s": 20.0,
+    "gridlock_queue": Infinity,
+    "gridlock_epochs": 6,
+    "gridlock_clear_queue": 45.0,
+    "gridlock_min_discharge": 1.0,
+    "ev_min_green_s": 8.0
+  },
+  "reward": {
+    "w_queue": 0.25,
+    "w_wait": 0.3,
+    "w_throughput": 0.2,
+    "w_switch": 0.1,
+    "queue_norm": 40.0,
+    "wait_norm": 200.0,
+    "throughput_norm": 20.0,
+    "ev_delay_norm": 20.0,
+    "ev_stop_cost": 1.0,
+    "w_ev_unserved": 1.0,
+    "ev_unserved_norm": 6.0,
+    "ev_imminence_range_m": 220.0
+  },
+  "belief": {
+    "prior_presence": 0.05,
+    "survival_prob": 0.92,
+    "survival_prob_receding": 0.45,
+    "birth_prob": 0.0045,
+    "transition_reference_s": 5.0,
+    "evidence_per_reference_interval": 1.0,
+    "eta_process_noise_s": 1.5,
+    "eta_measurement_noise_s": 4.0,
+    "max_eta_s": 45.0,
+    "commit_threshold": 0.6
+  },
+  "acoustic": {
+    "sample_rate": 16000,
+    "frame_s": 1.0,
+    "n_fft": 1024,
+    "hop_length": 256,
+    "n_mels": 64,
+    "fmin": 50.0,
+    "fmax": 7500.0,
+    "speed_of_sound": 343.0,
+    "detection_radius_m": 300.0,
+    "mic_offset_m": 70.0,
+    "directivity_front_back_db": 14.0,
+    "reference_spl_db": 110.0,
+    "ambient_noise_db_range": [
+      55.0,
+      80.0
+    ],
+    "ambient_drift_db_per_sqrt_s": 1.2,
+    "siren_types": [
+      "wail",
+      "yelp",
+      "hilo"
+    ],
+    "class_map": {
+      "none": 0,
+      "ambulance": 1,
+      "fire": 2,
+      "police": 3
+    },
+    "reverb_rt60_s": 0.8,
+    "max_radial_speed_ms": 30.0
+  },
+  "step_length_s": 1.0,
+  "gui": false,
+  "gui_delay_ms": 0,
+  "bluelight": false,
+  "gui_quit_on_end": true,
+  "sensing_interval_s": 1.0,
+  "sensing_mode": "surrogate",
+  "belief_mode": "independent",
+  "use_association": true,
+  "collect_emissions": false,
+  "teleport_s": 300,
+  "seed": 0
+}

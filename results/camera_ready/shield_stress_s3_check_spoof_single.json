@@ -1,0 +1,38 @@
+{
+ "50000": {
+  "max_age": 36.0,
+  "seconds_over_16": 600,
+  "unexplained": 299,
+  "max_age_without_s3": 21.0
+ },
+ "50001": {
+  "max_age": 36.0,
+  "seconds_over_16": 665,
+  "unexplained": 246,
+  "max_age_without_s3": 21.0
+ },
+ "50002": {
+  "max_age": 36.0,
+  "seconds_over_16": 660,
+  "unexplained": 280,
+  "max_age_without_s3": 21.0
+ },
+ "50003": {
+  "max_age": 36.0,
+  "seconds_over_16": 612,
+  "unexplained": 250,
+  "max_age_without_s3": 21.0
+ },
+ "50004": {
+  "max_age": 36.0,
+  "seconds_over_16": 654,
+  "unexplained": 260,
+  "max_age_without_s3": 21.0
+ },
+ "50005": {
+  "max_age": 36.0,
+  "seconds_over_16": 605,
+  "unexplained": 256,
+  "max_age_without_s3": 21.0
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "50000": {
+  "max_age": 36.0,
+  "seconds_over_16": 600,
+  "unexplained": 299,
+  "unexplained_examples": [
+   [
+    25.0,
+    17.0,
+    false
+   ],
+   [
+    26.0,
+    18.0,
+    false
+   ],
+   [
+    27.0,
+    19.0,
+    false
+   ],
+   [
+    28.0,
+    20.0,
+    false
+   ],
+   [
+    29.0,
+    21.0,
+    false
+   ]
+  ]
+ },
+ "50001": {
+  "max_age": 36.0,
+  "seconds_over_16": 665,
+  "unexplained": 246,
+  "unexplained_examples": [
+   [
+    45.0,
+    17.0,
+    false
+   ],
+   [
+    46.0,
+    18.0,
+    false
+   ],
+   [
+    47.0,
+    19.0,
+    false
+   ],
+   [
+    48.0,
+    20.0,
+    false
+   ],
+   [
+    49.0,
+    21.0,
+    false
+   ]
+  ]
+ },
+ "50002": {
+  "max_age": 36.0,
+  "seconds_over_16": 660,
+  "unexplained": 280,
+  "unexplained_examples": [
+   [
+    45.0,
+    17.0,
+    false
+   ],
+   [
+    46.0,
+    18.0,
+    false
+   ],
+   [
+    47.0,
+    19.0,
+    false
+   ],
+   [
+    48.0,
+    20.0,
+    false
+   ],
+   [
+    49.0,
+    21.0,
+    false
+   ]
+  ]
+ },
+ "50003": {
+  "max_age": 36.0,
+  "seconds_over_16": 612,
+  "unexplained": 250,
+  "unexplained_examples": [
+   [
+    45.0,
+    17.0,
+    false
+   ],
+   [
+    46.0,
+    18.0,
+    false
+   ],
+   [
+    47.0,
+    19.0,
+    false
+   ],
+   [
+    48.0,
+    20.0,
+    false
+   ],
+   [
+    49.0,
+    21.0,
+    false
+   ]
+  ]
+ },
+ "50004": {
+  "max_age": 36.0,
+  "seconds_over_16": 654,
+  "unexplained": 260,
+  "unexplained_examples": [
+   [
+    25.0,
+    17.0,
+    false
+   ],
+   [
+    26.0,
+    18.0,
+    false
+   ],
+   [
+    27.0,
+    19.0,
+    false
+   ],
+   [
+    28.0,
+    20.0,
+    false
+   ],
+   [
+    29.0,
+    21.0,
+    false
+   ]
+  ]
+ },
+ "50005": {
+  "max_age": 36.0,
+  "seconds_over_16": 605,
+  "unexplained": 256,
+  "unexplained_examples": [
+   [
+    25.0,
+    17.0,
+    false
+   ],
+   [
+    26.0,
+    18.0,
+    false
+   ],
+   [
+    27.0,
+    19.0,
+    false
+   ],
+   [
+    28.0,
+    20.0,
+    false
+   ],
+   [
+    29.0,
+    21.0,
+    false
+   ]
+  ]
+ }
+}

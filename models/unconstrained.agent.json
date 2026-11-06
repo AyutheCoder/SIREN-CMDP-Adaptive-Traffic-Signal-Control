@@ -1,0 +1,17 @@
+{
+  "state_dim": 85,
+  "n_actions": 4,
+  "lambda": 0.0,
+  "cost_ema": 0.2656523204826629,
+  "train_steps": 12989,
+  "env_steps": 53459,
+  "cost_budget": 0.18,
+  "constrained": false,
+  "sensing_mode": "surrogate",
+  "run_name": "unconstrained",
+  "train_episodes": 260,
+  "train_horizon_s": 1800,
+  "train_regime": "balanced",
+  "ev_rate_per_hour": 30.0,
+  "max_starvation_s": 180.0
+}

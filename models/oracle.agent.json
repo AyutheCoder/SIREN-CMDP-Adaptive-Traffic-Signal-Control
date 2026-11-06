@@ -1,0 +1,17 @@
+{
+  "state_dim": 85,
+  "n_actions": 4,
+  "lambda": 1.9803303480148315,
+  "cost_ema": 0.10847461995455569,
+  "train_steps": 5433,
+  "env_steps": 23232,
+  "cost_budget": 0.18,
+  "constrained": true,
+  "sensing_mode": "oracle",
+  "run_name": "oracle",
+  "train_episodes": 100,
+  "train_horizon_s": 1500,
+  "train_regime": "balanced",
+  "ev_rate_per_hour": 24.0,
+  "max_starvation_s": 180.0
+}

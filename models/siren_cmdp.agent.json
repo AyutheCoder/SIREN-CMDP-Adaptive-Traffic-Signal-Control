@@ -1,0 +1,18 @@
+{
+  "state_dim": 85,
+  "n_actions": 4,
+  "lambda": 4.001317977905273,
+  "cost_ema": 0.12080954042053031,
+  "train_steps": 4486,
+  "env_steps": 19445,
+  "cost_budget": 0.12,
+  "constrained": true,
+  "sensing_mode": "surrogate",
+  "belief_mode": "joint",
+  "run_name": "siren_cmdp",
+  "train_episodes": 200,
+  "train_horizon_s": 1800,
+  "train_regime": "balanced",
+  "ev_rate_per_hour": 30.0,
+  "max_starvation_s": 180.0
+}

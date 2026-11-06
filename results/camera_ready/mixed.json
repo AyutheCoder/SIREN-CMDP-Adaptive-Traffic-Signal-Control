@@ -1,0 +1,136 @@
+{
+ "asymmetric": {
+  "seeds": [
+   50000,
+   50001,
+   50002,
+   50003,
+   50004,
+   50005
+  ],
+  "siren_arc": {
+   "delay": 32.18525069085662,
+   "ev_stopped": 17.04402789886661,
+   "teleports_med": 0.0
+  },
+  "actuated": {
+   "delay": 28.34012046896656,
+   "ev_stopped": 23.575806451612905,
+   "teleports_med": 0.0
+  },
+  "preemption": {
+   "delay": 36.50046608377582,
+   "ev_stopped": 19.388366627497064,
+   "teleports_med": 0.0
+  },
+  "mixed": {
+   "delay": 32.29314203073644,
+   "ev_stopped": 13.625,
+   "teleports_med": 0.0
+  },
+  "p_delay_mixed_vs_original": 0.4999,
+  "p_ev_stopped_mixed_vs_original": 0.80545
+ },
+ "peak": {
+  "seeds": [
+   50000,
+   50001,
+   50002,
+   50003,
+   50004,
+   50005
+  ],
+  "siren_arc": {
+   "delay": 67.03003566225483,
+   "ev_stopped": 38.411637931034484,
+   "teleports_med": 0.0
+  },
+  "actuated": {
+   "delay": 33.801928600987836,
+   "ev_stopped": 18.344373865698728,
+   "teleports_med": 0.0
+  },
+  "preemption": {
+   "delay": 67.41492197393836,
+   "ev_stopped": 28.907894736842106,
+   "teleports_med": 0.0
+  },
+  "mixed": {
+   "delay": 115.0589505879258,
+   "ev_stopped": 61.59459459459459,
+   "teleports_med": 12.0
+  },
+  "p_delay_mixed_vs_original": 0.13575,
+  "p_ev_stopped_mixed_vs_original": 0.18645
+ },
+ "surge": {
+  "seeds": [
+   50000,
+   50001,
+   50002,
+   50003,
+   50004,
+   50005
+  ],
+  "siren_arc": {
+   "delay": 79.0213895052683,
+   "ev_stopped": 33.76251390433816,
+   "teleports_med": 0.0
+  },
+  "actuated": {
+   "delay": 35.745289714935,
+   "ev_stopped": 23.294540229885058,
+   "teleports_med": 0.0
+  },
+  "preemption": {
+   "delay": 60.061798278821385,
+   "ev_stopped": 25.901557285873192,
+   "teleports_med": 0.0
+  },
+  "mixed": {
+   "delay": 77.1358859529509,
+   "ev_stopped": 24.514162561576356,
+   "teleports_med": 0.0
+  },
+  "p_delay_mixed_vs_original": 0.1835,
+  "p_ev_stopped_mixed_vs_original": 0.06265
+ },
+ "balanced": {
+  "seeds": [
+   50000,
+   50001,
+   50002,
+   50003,
+   50004,
+   50005,
+   50006,
+   50007,
+   50008,
+   50009,
+   50010,
+   50011
+  ],
+  "siren_arc": {
+   "delay": 24.411425859136777,
+   "ev_stopped": 8.828142380422692,
+   "teleports_med": 0.0
+  },
+  "actuated": {
+   "delay": 27.493402058312547,
+   "ev_stopped": 19.519157088122604,
+   "teleports_med": 0.0
+  },
+  "preemption": {
+   "delay": 27.421266420433803,
+   "ev_stopped": 9.532258064516128,
+   "teleports_med": 0.0
+  },
+  "mixed": {
+   "delay": 24.709318169938943,
+   "ev_stopped": 8.243212669683258,
+   "teleports_med": 0.0
+  },
+  "p_delay_mixed_vs_original": 0.0836,
+  "p_ev_stopped_mixed_vs_original": 0.9419
+ }
+}

@@ -1,0 +1,14 @@
+
+regime=surge  flow=700.0 veh/h/approach  ev_rate=30.0/h  horizon=3600s  seeds=1
+
+  loaded siren_arc_mixed (lambda=0.000)
+  [siren_arc_mixed] seed=50005  delay=  64.21s  ev_stopped= 18.45s  ev_stops= 1.66  queue= 30.03  (51.2s)
+
+======================================================================================================================
+controller                    delay (s)  p95 delay (s)    queue (veh) EV stopped (s)       EV stops  EV clean pass
+----------------------------------------------------------------------------------------------------------------------
+siren_arc_mixed              64.21+-0.00    215.10+-0.00     30.03+-0.00     18.45+-0.00      1.66+-0.00     0.263+-0.000   med= 64.21 jam=0/1
+======================================================================================================================
+
+wrote results\camera_ready\units\siren_arc_mixed_surge_f700_ev30_s50005.json
+wrote results\camera_ready\units\siren_arc_mixed_surge_f700_ev30_s50005.csv

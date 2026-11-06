@@ -1,0 +1,93 @@
+[
+  {
+    "mean_time_loss_s": 23.757310986054545,
+    "ev_mean_waiting_time_s": 15.458333333333336,
+    "ev_mean_stops": 1.3630952380952381,
+    "ev_zero_stop_rate": 0.14583333333333334,
+    "mean_cost": 0.14087365175072997,
+    "mean_queue": 10.504997035831753,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 125.0,
+    "ev_mean_time_loss_s": 25.227589285714284,
+    "p95_time_loss_s": 51.037375,
+    "episode": 14
+  },
+  {
+    "mean_time_loss_s": 30.97024645265072,
+    "ev_mean_waiting_time_s": 24.51190476190476,
+    "ev_mean_stops": 1.255952380952381,
+    "ev_zero_stop_rate": 0.17261904761904762,
+    "mean_cost": 0.19163005453346216,
+    "mean_queue": 14.511579328576628,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 131.25,
+    "ev_mean_time_loss_s": 34.97202380952381,
+    "p95_time_loss_s": 72.51625,
+    "episode": 29
+  },
+  {
+    "mean_time_loss_s": 26.242353956289787,
+    "ev_mean_waiting_time_s": 18.520833333333336,
+    "ev_mean_stops": 1.1279761904761905,
+    "ev_zero_stop_rate": 0.09821428571428571,
+    "mean_cost": 0.16015444614527377,
+    "mean_queue": 12.156634267325398,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 126.25,
+    "ev_mean_time_loss_s": 28.223869047619047,
+    "p95_time_loss_s": 58.38787500000001,
+    "episode": 44
+  },
+  {
+    "mean_time_loss_s": 25.345011879506345,
+    "ev_mean_waiting_time_s": 17.702380952380953,
+    "ev_mean_stops": 1.130952380952381,
+    "ev_zero_stop_rate": 0.041666666666666664,
+    "mean_cost": 0.1502597287806589,
+    "mean_queue": 11.58476002758181,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 120.0,
+    "ev_mean_time_loss_s": 26.64139880952381,
+    "p95_time_loss_s": 53.74374999999999,
+    "episode": 59
+  },
+  {
+    "mean_time_loss_s": 21.67911831840542,
+    "ev_mean_waiting_time_s": 11.645833333333334,
+    "ev_mean_stops": 0.9315476190476191,
+    "ev_zero_stop_rate": 0.22619047619047616,
+    "mean_cost": 0.1243548909814524,
+    "mean_queue": 8.99201206106672,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 125.0,
+    "ev_mean_time_loss_s": 20.17982142857143,
+    "p95_time_loss_s": 46.580749999999995,
+    "episode": 74
+  },
+  {
+    "mean_time_loss_s": 22.765484706359675,
+    "ev_mean_waiting_time_s": 13.267857142857142,
+    "ev_mean_stops": 1.056547619047619,
+    "ev_zero_stop_rate": 0.20833333333333331,
+    "mean_cost": 0.1398592997681945,
+    "mean_queue": 9.94910482178044,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 123.75,
+    "ev_mean_time_loss_s": 22.13595238095238,
+    "p95_time_loss_s": 50.00399999999999,
+    "episode": 89
+  },
+  {
+    "mean_time_loss_s": 23.700764331597117,
+    "ev_mean_waiting_time_s": 11.922619047619047,
+    "ev_mean_stops": 1.0327380952380953,
+    "ev_zero_stop_rate": 0.17559523809523808,
+    "mean_cost": 0.12368009747356769,
+    "mean_queue": 10.497933962162335,
+    "throughput": 1185.0,
+    "max_movement_wait_s": 128.75,
+    "ev_mean_time_loss_s": 20.584791666666664,
+    "p95_time_loss_s": 52.646625,
+    "episode": 99
+  }
+]
